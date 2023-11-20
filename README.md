@@ -4,12 +4,15 @@ The success factoring a profitable hotel industry has been changing over time, d
 In our data study, we have 2 types of hotels- the resort type and city hotel type. There are factors in the study which affect the business of the hotels. Factors such as location, ADR, Deposits charged, wait time, etc. We also have channels like distribution channels and market segments to focus on to get more revenue.
 
 Project Goal
+
 This data set contains booking information for a city hotel and a resort hotel and includes information such as when the booking was made, length of stay, the number of adults, children, and/or babies, and the number of available parking spaces, among other things. The purpose of our study is to find the best time to book a hotel room. The optimal length of stay in order to get the best daily rate. Study on special requests. We explore and analyze the data to discover important factors that govern the bookings.
 
 Exploratory Data Analysis:-
+
 In this study, we have sample data about the hotel industry that is not processed for use. Unprocessed data gives inaccurate results. Processing this data is called data cleaning. We have cleaned the data by handling null values, and outliers, and dropping unwanted columns.
 
 Data Cleaning
+
 Handling Null Values
 Company Id and Agent Id: - These columns have null values of 93% and 15% respectively. Hence, these columns are dropped.
 
@@ -18,9 +21,11 @@ Country: - This has null values less than 5% thus the null values are filled wit
 Children and babies: - There are only 4 null values so the null value is filled with mean
 
 Handling Outliers
+
 An outlier is an extremely high or extremely low data point relative to the nearest data point and the rest of the neighboring co-existing values in a data graph or dataset we work with. We have used the Interquartile range method to handle outliers. To find the interquartile range (IQR), ​we first find the median (middle value) of the lower and upper half of the data. These values are quartile 1 (Q1) and quartile 3 (Q3). The IQR is the difference between Q3 and Q1.
 
 Data Study
+
 i) UNIVARIATE ANALYSIS: Univariate analysis is the simplest form of analyzing data i.e. study of one variable. Its major purpose is to describe; the distribution of single data, and find patterns in the data.
 
 ii) BIVARIATE ANALYSIS: Bivariate analysis between two variables. One of the variables will be dependent and the other is independent. The study is analyzed between the two variables to understand to what extent the change has occurred.
@@ -28,6 +33,7 @@ ii) BIVARIATE ANALYSIS: Bivariate analysis between two variables. One of the var
 iii) MULTIVARIATE ANALYSIS Multivariate data analysis is the study of relationships among the attributes, classify the collected samples into homogeneous groups, and make inferences about the underlying populations from the sample.
 
 Data Visualization:-
+
 Data visualization is the practice of translating information into a visual context, such as a map or graph, to make it easier to understand and gain insights from them. The graphs used here for study are: -
 
 Box Plot.
@@ -45,6 +51,7 @@ Scatter Plot.
 Geo Mapping.
 
 Conclusion:-
+
 The majority of people prefer A-room type so hotels should increase their numbers to get more revenue.
 
 Chances of cancellation are high when there are no deposits taken by hotels, so hotels should take minimum deposits to minimize the rate of cancellation.
